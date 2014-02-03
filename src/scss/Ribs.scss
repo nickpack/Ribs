@@ -9,9 +9,9 @@
 */
 
 // #Import of normalize, variables and mixins
+@import "_mixins";
 @import "_variables";
 @import "normalize/_normalize";
-@import "_mixins";
 
 // #General body style
 body {
