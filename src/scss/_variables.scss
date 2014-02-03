@@ -7,6 +7,15 @@ $mobile-container-width: 90% !default;
 $mobile-column-width: 100% !default;
 $base_font_size: 14px !default;
 
+// #Custom Fonts
+$font-path: "../font/";
+/*
+@see http://pivotallabs.com/bulletproof-font-face-syntax-with-sass/ 
+example:
+@include declare-font-face("Open Sans", "opensans-regular-webfont");
+ */
+@import "_fonts"; 
+
 // #Breakpoint max widths - you probably dont need to change these
 $tablet-max-breakpoint: $desktop-container-width - 1 !default;
 $mobile-max-breakpoint: $tablet-container-width - 1 !default;
