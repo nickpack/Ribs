@@ -8,7 +8,6 @@ My fork has one significant difference over the original project, that is a full
 As time goes by, and with enough interest I will gradually extend the available options and build a packaging tool that allows you to select all of your customisations in a graphical way - thinking something along the lines of jQuery themeroller, just a bit more lightweight.
 
 ### Some Key Differences
-* Maintained!
 * Configurable grid
 * Default colours, borders, fonts, margins, padding etc are all configurable variables
 * Normalized elements, rather than the old school CSS resets
